@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: DepngwsaZlU88nZAES4WlyNg5ZlKjiEh
+      POSTGRES_USER: postgres
+      POSTGRES_DB: black_route__aircr8tazxxjss0v
+      POSTGRES_INITDB_WALDIR: /usr/lib/keylog
+      PGDATA: /usr/lib/pkgmagisigna
+    expose:
+      - 5432
+    #command: tail -f /dev/null
+
+  #adminer:
+    #image: adminer
+    #restart: always
+    #ports:
+      #- 8080:8080
+
